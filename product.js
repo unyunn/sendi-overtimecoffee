@@ -1,4 +1,4 @@
-const dataUrl = "/storage/emulated/0/Overtime Project/products.json"; // URL to fetch product data (your products.json file)
+const dataUrl = "products.json"; // URL to fetch product data (your products.json file)
 
 // Select elements to update with product details
 const productImage = document.getElementById("product-image");
