@@ -1688,6 +1688,11 @@ input:focus, textarea:focus {
         font-size: 20px;
     }
 
+      .cta-button {
+    font-size: 16px;
+    padding: 8px 16px;
+      }
+
     .hamburger {
         display: block; /* Show hamburger icon on mobile */
     }
@@ -1861,12 +1866,6 @@ input:focus, textarea:focus {
 
   .footer-locations {
     grid-template-columns: 1fr;
-  }
-}
-
-    .cta-button {
-    font-size: 16px;
-    padding: 8px 16px;
   }
 }
 
