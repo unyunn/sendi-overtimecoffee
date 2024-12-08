@@ -209,6 +209,13 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Bayangan pada navbar */
 }
 
+/* Logo container */
+.logo {
+    display: flex; /* Mengatur logo dan teks agar berada dalam satu baris */
+    align-items: center; /* Menyelaraskan logo dan teks secara vertikal */
+}
+
+
 /* Style untuk gambar logo */
 .logo img {
     width: 60px; /* Ukuran lebar logo */
