@@ -209,13 +209,24 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Bayangan pada navbar */
 }
 
-/* Logo styles (tanpa border-radius) */
+/* Style untuk gambar logo */
 .logo img {
     width: 60px; /* Ukuran lebar logo */
     height: 60px; /* Ukuran tinggi logo */
-    object-fit: contain; /* Memastikan gambar utuh dan tidak terpotong */
-    object-position: center; /* Menyelaraskan gambar ke tengah */
+    object-fit: contain; /* Memastikan gambar tetap utuh */
+    object-position: center; /* Menyelaraskan gambar logo ke tengah */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan pada logo */
+    border: none; /* Menghapus border */
+    margin-right: 8px; /* Memberikan jarak antara logo dan teks */
+}
+
+/* Teks VERTIME di samping logo */
+.logo-text {
+    font-size: 24px; /* Ukuran font teks VERTIME */
+    font-weight: bold; /* Menebalkan font */
+    color: yellow; /* Warna kuning sesuai tema */
+    letter-spacing: 2px; /* Memberikan jarak antar huruf */
+    vertical-align: middle; /* Menjaga teks sejajar dengan logo secara vertikal */
 }
 
 /* Hamburger styles */
