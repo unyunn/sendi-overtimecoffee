@@ -1888,8 +1888,8 @@ input:focus, textarea:focus {
   }
 
   .cta-button {
-    font-size: 16px;
-    padding: 8px 16px;
+    font-size: 14px;
+    padding: 6px 12px;
   }
 }
 
