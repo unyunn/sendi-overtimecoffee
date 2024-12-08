@@ -1696,6 +1696,11 @@ input:focus, textarea:focus {
         display: block; /* Show the menu when hamburger is clicked */
     }
 
+  .cta-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+    
 .about-item {
         flex-direction: column; /* Tumpuk gambar dan teks */
         text-align: center;
