@@ -1696,6 +1696,11 @@ input:focus, textarea:focus {
         display: block; /* Show the menu when hamburger is clicked */
     }
 
+.home-content {
+        top: 40%; /* Kurangi posisi vertikal agar lebih proporsional */
+        padding: 10px; /* Sesuaikan ruang di dalam kontainer */
+    }
+    
 .about-item {
         flex-direction: column; /* Tumpuk gambar dan teks */
         text-align: center;
